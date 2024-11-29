@@ -15,6 +15,7 @@ import project11 from "../assets/projects/uiux_1.png";
 import project12 from "../assets/projects/uiux_2.png";
 import project13 from "../assets/projects/donnySri.jpg";
 import project14 from "../assets/projects/AdzkaAndina.jpg";
+import project15 from "../assets/projects/project-15.png";
 import training1 from "../assets/projects/training1.jpg";
 import training2 from "../assets/projects/training2.jpg";
 import training3 from "../assets/projects/training3.jpg";
@@ -259,6 +260,13 @@ export const PROJECTS = [
       "Website with simple HTML and CSS and use of Java script language for image search system using API. Each search will display several images as desired.",
     technologies: ["HTML", "CSS", "JavaScript", "API"],
     link: "https://rinsaf14.github.io/imagegallery/",
+  },
+  {
+    title: "Simple Todo List",
+    image: project15,
+    description: "Create a todolist to strengthen understanding of Javascript.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    link: "https://rinsaf14.github.io/To-do-list/",
   },
   {
     title: "Rumah Impian UI UX",
