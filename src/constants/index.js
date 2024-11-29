@@ -16,6 +16,7 @@ import project12 from "../assets/projects/uiux_2.png";
 import project13 from "../assets/projects/donnySri.jpg";
 import project14 from "../assets/projects/AdzkaAndina.jpg";
 import project15 from "../assets/projects/project-15.png";
+import project16 from "../assets/projects/project-16.png";
 import training1 from "../assets/projects/training1.jpg";
 import training2 from "../assets/projects/training2.jpg";
 import training3 from "../assets/projects/training3.jpg";
@@ -144,6 +145,14 @@ export const PROJECTS = [
       "Working with Arcgis Pro to process to datasets that is mc_major_roads and monroe_county_wetlands. In Model Builder, I apply a buffer to the roads and use clip to cut the wetlands dataset based on the buffer zone. After exporting the model to Python code, I modify the script to suit my needs. Finally, I run the modified Python script in the Command Prompt to execute the analysis and generate the desire output.",
     technologies: ["Vs Code", "ArcPy", "ArcGIS Pro", "Model Builder"],
     link: "",
+  },
+  {
+    title: "TodoList React",
+    image: project16,
+    description:
+      "Create Todolist using React with fake API using Axios and Json Server. This project is not hosted because the limitation to find free hostinger that support json server",
+    technologies: ["Tailwind", "React", "Axios", "Json Server"],
+    link: "https://github.com/Rinsaf14/todolist-react.git",
   },
   {
     title: "Rumah Impian",
