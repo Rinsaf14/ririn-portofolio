@@ -17,14 +17,17 @@ import project13 from "../assets/projects/donnySri.jpg";
 import project14 from "../assets/projects/AdzkaAndina.jpg";
 import project15 from "../assets/projects/project-15.png";
 import project16 from "../assets/projects/project-16.png";
+import project17 from "../assets/projects/project-17.png";
+import project18 from "../assets/projects/project-18.png";
+import project19 from "../assets/projects/project-19.png";
 import training1 from "../assets/projects/training1.jpg";
 import training2 from "../assets/projects/training2.jpg";
 import training3 from "../assets/projects/training3.jpg";
 import training4 from "../assets/projects/Ririn.jpg";
 import training5 from "../assets/projects/sertifikat-figma-dasar.png";
 import training6 from "../assets/projects/sertifikat-kursus-wordpress.png";
-import achievement1 from "../assets/projects/achievement1.png";
-import achievement2 from "../assets/projects/achievement2.jpg";
+import achievement1 from "../assets/projects/achievement1.webp";
+import achievement2 from "../assets/projects/achievement2.webp";
 import achievement3 from "../assets/projects/achievement3.jpeg";
 import achievement4 from "../assets/projects/achievement4.png";
 import achievement5 from "../assets/projects/achievement5.jpg";
@@ -33,7 +36,7 @@ import achievement7 from "../assets/projects/achievement7.jpg";
 import achievement8 from "../assets/projects/achievement8.jpg";
 import achievement9 from "../assets/projects/achievement9.jpg";
 
-export const HERO_CONTENT = `I am a Geography graduate with a passion for technology, particularly in the fields of GIS and programming. Throughout my academic journey, I developed a keen interest in spatial analysis and map-making, gaining expertise in creating both general and thematic maps using tools like ArcGIS and ArcGIS Pro. In addition to my GIS skills, I have a strong self-taught background in programming that is web development, specializing in PHP, JavaScript and Phyton. I have experience as a freelance map making service and intern as IT web developer. I am deeply committed to continuously learning and advancing in my field, with the goal of becoming a highly skilled professional in both GIS and web development.`;
+export const HERO_CONTENT = `I am a Geography graduate with a strong passion for technology, particularly in the areas of GIS and web development. Over the past two years, I have dedicated myself to learning web development through self-study, alongside my academic journey. This has allowed me to build proficiency in technologies such as PHP, JavaScript, and Python, specializing in web development. In addition to my web development expertise, I have developed a deep interest in spatial analysis and map-making, gaining significant experience with tools like ArcGIS and ArcGIS Pro for creating both general and thematic maps. My hands-on experience includes freelancing in map-making services and interning as an IT web developer. I am committed to continuous learning and growth in both GIS and web development, with the ultimate goal of becoming a highly skilled professional in these fields.`;
 
 export const ABOUT_TEXT = `My interest in technology started during college, where I learned mapping and became a GIS teaching assistant. GIS and programming are fields that I find particularly interesting, and I am someone who learns quickly. I was involved in various projects, such as assisting with GIS teaching and creating a map for MAN 1 Makassar, as well as working as a mapping freelancer. Towards the end of my studies, I expanded my skills by learning web development and now have experience in freelance projects and an internship as an IT Web Developer. In the future, I aspire to become a WebGIS Specialist.`;
 
@@ -147,6 +150,43 @@ export const PROJECTS = [
     link: "",
   },
   {
+    title: "Store Management",
+    image: project2,
+    description:
+      "Development with the Laravel PHP Framework and native CSS. Equipped with authentication for admin and user. There is a crud feature for goods in and out of the shop for admins and a feature for purchasing goods for users (users)",
+    technologies: ["HTML", "CSS", "Laravel", "MySQL"],
+    link: "/process.html",
+  },
+  {
+    title: "Netflix Clone",
+    image: project19,
+    description:
+      "Create a netflic clone website with React. This website uses the TMDB API which displays existing movie data. Apart from that, it also features authentication with Firebase for Sign In and Sign Up",
+    technologies: [
+      "React Js",
+      "Tailwind",
+      "TMDB API",
+      "Firebase Database Authentication",
+    ],
+    link: "/process.html",
+  },
+  {
+    title: "Geo Quiz",
+    image: project18,
+    description:
+      "Create a Geography quiz website with questions in the form of Json data. This website was created with React and tailwind CSS for appearance. Then deploy with Varcel",
+    technologies: ["Tailwind", "React", "Varcel"],
+    link: "https://react-game-nine-gamma.vercel.app/",
+  },
+  {
+    title: "React Weather",
+    image: project17,
+    description:
+      "Create Todolist using React with fake API using Axios and Json Server. This project is not hosted because the limitation to find free hostinger that support json server",
+    technologies: ["Tailwind", "React", "Axios", "Json Server"],
+    link: "https://github.com/Rinsaf14/todolist-react.git",
+  },
+  {
     title: "TodoList React",
     image: project16,
     description:
@@ -161,14 +201,6 @@ export const PROJECTS = [
       "Development with HTML, CSS, and JavaScript resulting from slicing using Figma. A real estate trading website. However, there is no complex interactivity or database in its development, only on the front-end side.",
     technologies: ["HTML", "CSS", "JavaScript", "Github"],
     link: "/peta.html",
-  },
-  {
-    title: "Store Management",
-    image: project2,
-    description:
-      "Development with the Laravel PHP Framework and native CSS. Equipped with authentication for admin and user. There is a crud feature for goods in and out of the shop for admins and a feature for purchasing goods for users (users)",
-    technologies: ["HTML", "CSS", "Laravel", "MySQL"],
-    link: "/process.html",
   },
   {
     title: "Website for Reports about Bullying in SMP Negeri 3 Makassar",
