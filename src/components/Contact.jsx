@@ -32,6 +32,7 @@ const Contact = () => {
         <a href="#" className="border-b">
           {CONTACT.email}
         </a>
+        <p className="mt-3 text-yellow-300">Willing to be placed anywhere</p>
       </div>
     </div>
   );

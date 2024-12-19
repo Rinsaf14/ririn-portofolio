@@ -20,6 +20,7 @@ import project16 from "../assets/projects/project-16.png";
 import project17 from "../assets/projects/project-17.png";
 import project18 from "../assets/projects/project-18.png";
 import project19 from "../assets/projects/project-19.png";
+import project20 from "../assets/projects/project-20.png";
 import training1 from "../assets/projects/training1.jpg";
 import training2 from "../assets/projects/training2.jpg";
 import training3 from "../assets/projects/training3.jpg";
@@ -42,9 +43,9 @@ export const ABOUT_TEXT = `My interest in technology started during college, whe
 
 export const EXPERIENCES = [
   {
-    year: "2020 - 2022",
-    role: "GIS Teaching Assistant and Geography Lab Assistant.",
-    institution: "Geography Department, Universitas Negeri Makassar",
+    year: "2021 - 2022",
+    role: "GIS Teaching Assistant and Geography Lab Assistant |",
+    company: "Geography Department, Universitas Negeri Makassar",
     description: `Assisting the lecturer in the Mapping and GIS course in various tasks such as teaching through instructional videos, helping with map project creation, participating in mapping training, assisting in research, and other related activities.`,
     technologies: [
       "ArcGIS Desktop",
@@ -59,9 +60,10 @@ export const EXPERIENCES = [
     ],
   },
   {
-    year: "2021 - Now",
-    role: "Freelance Mapping Services.",
-    description: `The service provides the creation of general and thematic mapping services as desired by the user. Map creation is carried out using various types of data as the basis, such as satellite imagery, RBI maps, field data, and other relevant data. The price of the map is adjusted according to the level of complexity and analysis required.`,
+    year: "2021 - 2024",
+    role: "Freelance Mapping, GIS Services and Web Development |",
+    company: "Abbasy Map",
+    description: `The service provides the creation of general and thematic mapping services as desired by the user. Map creation is carried out using various types of data as the basis, such as satellite imagery, RBI maps, field data, and other relevant data. The price of the map is adjusted according to the level of complexity and analysis required. For web development, Create and develop a website for mapping services. The website is still under development. The technology used is React JS`,
     technologies: [
       "ArcGIS Desktop",
       "ArcGIS Pro",
@@ -69,30 +71,75 @@ export const EXPERIENCES = [
       "ER Mapper",
       "Sas Planet",
       "Seadas",
-      "Landsat",
       "Agisoft MetaShape",
       "Fastone Photo Reziser",
+      "React JS",
+    ],
+  },
+  {
+    year: "2022 - 2024",
+    role: "Freelance Turnitin Check, Paraphrase, Translation and Web Development |",
+    company: "Abbasy Turnitin",
+    description: `Providing Turnitin Checking, Paraphrasing, and translation. Abbasy Turnitin has served hundreds of customers from various campuses and institutions across Indonesia. Create and develop a website for Turnitin services. The website is still under development. The technology used is React JS`,
+    technologies: [
+      "paraphrasing",
+      "Web Development",
+      "Sales",
+      "Translation",
+      "Turnitin",
     ],
   },
   {
     year: "2023 - 2024 (Until March)",
-    role: "Coordinator of the Entrepreneurship Division, FMIPA International Class Students Program",
-    company: "Universitas Negeri Makassar",
-    description: `Carry out various activities to improve the English language skills of students in the International Class Program, FMIPA, Makassar State University. The activities are directly supervised by the faculty and receive full support from the faculty. Various programs are implemented, such as English Day, mentoring, IELTS Prediction Test, international seminars, and other programs. In addition, there is an entrepreneurship program that provides various services and products, helping students develop skills to become entrepreneurs.`,
+    role: "Coordinator of the Entrepreneurship Division, FMIPA International Class Students Program |",
+    company: "Faculty of Mathematics and Sciences, Universitas Negeri Makassar",
+    description: `Carry out various activities to improve the English language skills of students in the International Class Program, FMIPA, Makassar State University. The activities are directly supervised by the faculty and receive full support from the faculty. Various programs are implemented, such as English Day, mentoring, IELTS Prediction Test, international seminars, and other programs. In addition, there is an entrepreneurship program that provides various services and products, helping students develop skills to become entrepreneurs. For web development, Create and develop a community website using React JS. The website is still under development and is being customized to meet the community's needs`,
     technologies: [
       "English Language, Leadership, Entrepreneurship, Team Working, Communication Skills",
+      "Web Development",
+      "React",
+      "CSS Native",
     ],
   },
   {
-    year: "2024 - (April - Mei)",
-    role: "Freelance Web Developer",
+    year: "December 2023 - December 2024",
+    role: "Gift Bouquet Designer and Web Developer |",
+    company: "Beauty Bouquet Barru",
+    description: `Provide a variety of bouquet types such as flower bouquets, stuffed animals, snacks, money, and more. In addition, this business is being developed by creating and building the Beauty Bouquet Barru website, allowing customers to more easily view the available stock. The website is still under development, using React and Tailwind technologies.`,
+    technologies: [
+      "Design",
+      "Floris",
+      "Sales",
+      "Web Development",
+      "React",
+      "CSS Native",
+    ],
+  },
+  {
+    year: "January - December 2024",
+    role: "Retail Assistant ad Web Developer |",
+    company: "Berkah Sukses Store",
+    description: `Responsible for managing product availability, store operations, cashier, as well as creating and developing the store's cashier website. The cashier website is built using Laravel technology and includes features such as login authentication for cashiers and admins, as well as menus for the dashboard, users, products, transactions, and reports. This website developed using Laravel 11 and still in development.
+`,
+    technologies: [
+      "Design",
+      "Floris",
+      "Sales",
+      "Web Development",
+      "React",
+      "CSS Native",
+    ],
+  },
+  {
+    year: "April - Mei 2024",
+    role: "Freelance Web Developer |",
     company: "Jababeka Tbk (By the relation of an intern)",
     description: `Helping develop the psychological test website together with an intern at Jababeka Tbk. Website development is carried out by inserting questions on sheets of paper into the website display and then providing logic according to the form of multiple choice questions. There is one correct answer and then the user's answer results will be calculated when all questions have been answered. Apart from that, this website also provides CSS to make it more attractive. In this project, I only worked on the CFIT question section.`,
     technologies: ["PHP Native", "CSS", "MySQL", "Javascript"],
   },
   {
     year: "2024 - (Juni - November)",
-    role: "IT Web Developer Intern",
+    role: "IT Web Developer Intern |",
     company: "Invaite.id",
     description: `Helping slicing website designs into lines of code so that it can become an interactive online invitation website that customers want. The online invitation website is equipped with features for sending messages and impressions as well as confirming attendance which is connected to a database in real time. This website has been hosted and received by customers.`,
     technologies: [
@@ -107,7 +154,7 @@ export const EXPERIENCES = [
   },
   {
     year: "2024 - (Agustus)",
-    role: "Freelance Web Developer",
+    role: "Freelance Web Developer |",
     company: "UPT SPF SMP NEGERI 3 MAKASSAR ",
     description: `Helping create a bullying complaint website at school. On this website, there is a complaint feature by embedding links in the form of social media and also Google forms. There is also various information regarding bullying complaints. This website has also been hosted so it can be used immediately.`,
     technologies: ["HTML", "CSS", "JavaScript", "Github"],
@@ -132,6 +179,14 @@ export const PROJECTS = [
       "Fastone Photo Reziser",
     ],
     link: "/peta.html",
+  },
+  {
+    title: "Web GIS Bojo Baru",
+    image: project20,
+    description:
+      "Creating a GIS Website using Codeigniter 4. This GIS Website includes a Dashboard, View Map, Base Map, Marker, Circle, Polyline, Polygon, GeoJSON, Get Coordinates, Geolocation, and Database. The development of this website is part of the learning process for Web GIS.",
+    technologies: ["Codeigniter 4", "Leaflet", "GeoJSON"],
+    link: "",
   },
   {
     title: "Processing Water Service data with ArcPy in VSCode into ArcGIS Pro",
