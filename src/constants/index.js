@@ -186,7 +186,7 @@ export const PROJECTS = [
     description:
       "Creating a GIS Website using Codeigniter 4. This GIS Website includes a Dashboard, View Map, Base Map, Marker, Circle, Polyline, Polygon, GeoJSON, Get Coordinates, Geolocation, and Database. The development of this website is part of the learning process for Web GIS.",
     technologies: ["Codeigniter 4", "Leaflet", "GeoJSON"],
-    link: "",
+    link: "/process.html",
   },
   {
     title: "Processing Water Service data with ArcPy in VSCode into ArcGIS Pro",
@@ -194,7 +194,7 @@ export const PROJECTS = [
     description:
       "Performed the process of inputting Water Service data in CSV format using VSCode and ArcPy (Python) into ArcMap, resulting in a pointer containing service request information related to 'Water Service' at the address '5303 Palmetto, Houston, TX 77081,' reported via voice call on August 23, 2017.",
     technologies: ["Microsoft Excel", "Vs Code", "ArcPy", "ArcGIS Pro"],
-    link: "",
+    link: "/process.html",
   },
   {
     title: "Modifying ArcGIS Pro Model Builder Exported Python Scripts",
@@ -202,7 +202,7 @@ export const PROJECTS = [
     description:
       "Working with Arcgis Pro to process to datasets that is mc_major_roads and monroe_county_wetlands. In Model Builder, I apply a buffer to the roads and use clip to cut the wetlands dataset based on the buffer zone. After exporting the model to Python code, I modify the script to suit my needs. Finally, I run the modified Python script in the Command Prompt to execute the analysis and generate the desire output.",
     technologies: ["Vs Code", "ArcPy", "ArcGIS Pro", "Model Builder"],
-    link: "",
+    link: "/process.html",
   },
   {
     title: "Store Management",
