@@ -3,7 +3,6 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { RiNextjsLine } from "react-icons/ri";
 import { FaLaravel } from "react-icons/fa";
 import { DiCodeigniter } from "react-icons/di";
-import { FaSass } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaBootstrap } from "react-icons/fa";
@@ -22,6 +21,7 @@ import faststone from "../assets/faststone.jpeg";
 import { FaJsSquare } from "react-icons/fa";
 import { FaPhp } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
+import mongodb from "../assets/mongodb.jpeg";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -227,7 +227,11 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <FaSass className="text-7xl text-pink-400" />
+          <img
+            src={mongodb}
+            alt="ArcGIS Logo"
+            className="bg-white w-16 h-16 "
+          />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}

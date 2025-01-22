@@ -20,7 +20,17 @@ import project16 from "../assets/projects/project-16.png";
 import project17 from "../assets/projects/project-17.png";
 import project18 from "../assets/projects/project-18.png";
 import project19 from "../assets/projects/project-19.png";
-import project20 from "../assets/projects/project-20.png";
+import project25 from "../assets/projects/project-25.png";
+import project21 from "../assets/projects/project-21.png";
+import project22 from "../assets/projects/project-22.png";
+import project23 from "../assets/projects/project-23.png";
+import project24 from "../assets/projects/project-24.png";
+import project26 from "../assets/projects/project-26.png";
+import project27 from "../assets/projects/project-27.png";
+import project28 from "../assets/projects/project-28.png";
+import project29 from "../assets/projects/project-29.png";
+import project31 from "../assets/projects/project-31.png";
+import project32 from "../assets/projects/project-32.png";
 import training1 from "../assets/projects/training1.jpg";
 import training2 from "../assets/projects/training2.jpg";
 import training3 from "../assets/projects/training3.jpg";
@@ -37,11 +47,60 @@ import achievement7 from "../assets/projects/achievement7.jpg";
 import achievement8 from "../assets/projects/achievement8.jpg";
 import achievement9 from "../assets/projects/achievement9.jpg";
 
-export const HERO_CONTENT = `I am a Geography graduate with a strong passion for technology, particularly in the areas of GIS and web development. Over the past two years, I have dedicated myself to learning web development through self-study, alongside my academic journey. This has allowed me to build proficiency in technologies such as PHP, JavaScript, and Python, specializing in web development. In addition to my web development expertise, I have developed a deep interest in spatial analysis and map-making, gaining significant experience with tools like ArcGIS and ArcGIS Pro for creating both general and thematic maps. My hands-on experience includes freelancing in map-making services and interning as an IT web developer. I am committed to continuous learning and growth in both GIS and web development, with the ultimate goal of becoming a highly skilled professional in these fields.`;
+export const HERO_CONTENT = `Junior Website and WebGIS Developer with internship experience, involvement in projects, and over two years of self-learning. Skilled in developing full-stack websites using various technologies such as Codeigniter, Laravel, and Next.js. Additionally, I am proficient in database management with MySQL, MongoDB, and Firebase. In the WebGIS field, I have experience creating and developing map-based websites using Leaflet, as well as operating mapping software like ArcGIS and other related software. Enthusiastic to continuously learn and adapt to new technologies, with the ability to work independently or as part of a team.
+`;
 
 export const ABOUT_TEXT = `My interest in technology started during college, where I learned mapping and became a GIS teaching assistant. GIS and programming are fields that I find particularly interesting, and I am someone who learns quickly. I was involved in various projects, such as assisting with GIS teaching and creating a map for MAN 1 Makassar, as well as working as a mapping freelancer. Towards the end of my studies, I expanded my skills by learning web development and now have experience in freelance projects and an internship as an IT Web Developer. In the future, I aspire to become a WebGIS Specialist.`;
 
 export const EXPERIENCES = [
+  {
+    year: "June - November 2024",
+    role: "IT Web Developer Intern |",
+    company: "Invaite.id",
+    description: `Assisted in slicing website designs into code that could be implemented to create an interactive online invitation website. Developed features for sending messages, leaving comments, and confirming attendance, all connected to a real-time database. Used technologies such as HTML, CSS, JavaScript, CodeIgniter 3, Firebase, MySQL, and Filezilla in the development project.`,
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "CI",
+      "Firebase",
+      "MySQL",
+      "Filezilla",
+    ],
+  },
+  {
+    year: "August 2024",
+    role: "Freelance Web Developer |",
+    company: "Bullying reporting website",
+    description: `Used technologies such as HTML, CSS, and JavaScript in website development. Added a complaint feature by embedding social media links and Google Forms to facilitate students in reporting bullying incidents. Provided information related to bullying complaints to raise awareness among students and school staff. Developed the website, which was hosted and ready for use by the school and students.`,
+    technologies: ["HTML", "CSS", "JavaScript", "Github"],
+  },
+  {
+    year: "April 2024",
+    role: "Freelance Web Developer |",
+    company: "Psychotest website",
+    description: `Helped in developing a psychological test website by converting test questions from paper to website format. Added logic for multiple-choice questions according to the required format. Focused on the development of the CFIT (Cattell Culture Fair Intelligence Test) question section on the website. Used technologies such as PHP Native, CSS, MySQL, and JavaScript in website development`,
+    technologies: ["PHP Native", "CSS", "MySQL", "Javascript"],
+  },
+  {
+    year: "January - December 2024",
+    role: "Retail Assistant ad Web Developer |",
+    company: "Berkah Sukses Store",
+    description: `Responsible for managing product availability, store operations, and cashier duties to ensure smooth sales processes. Assisted in the development of a cashier website for the store, which includes login authentication features for cashiers and admins. Developed various menus on the website, including dashboard, user management, products, transactions, and reports. Used technologies such as Laravel 11, Livewire, and MySQL to build and develop the cashier website, which is still in the development stage..`,
+    technologies: ["Laravel 11", "Livewire", "MySQL"],
+  },
+  {
+    year: "March 2024 - March 2024",
+    role: "Coordinator of the Entrepreneurship Division, FMIPA International Class Students Program |",
+    company: "Faculty of Mathematics and Sciences, Universitas Negeri Makassar",
+    description: `Carry out various activities to improve the English language skills of students in the International Class Program, FMIPA, Makassar State University. The activities are directly supervised by the faculty and receive full support from the faculty. Various programs are implemented, such as English Day, mentoring, IELTS Prediction Test, international seminars, and other programs. In addition, there is an entrepreneurship program that provides various services and products, helping students develop skills to become entrepreneurs. For web development, Create and develop a community website using React JS. The website is still under development and is being customized to meet the community's needs`,
+    technologies: [
+      "English Language, Leadership, Entrepreneurship, Team Working, Communication Skills",
+      "Web Development",
+      "React",
+      "Tailwind CSS",
+    ],
+  },
   {
     year: "2021 - 2022",
     role: "GIS Teaching Assistant and Geography Lab Assistant |",
@@ -59,111 +118,298 @@ export const EXPERIENCES = [
       "Fastone Photo Reziser",
     ],
   },
-  {
-    year: "2021 - 2024",
-    role: "Freelance Mapping, GIS Services and Web Development |",
-    company: "Abbasy Map",
-    description: `The service provides the creation of general and thematic mapping services as desired by the user. Map creation is carried out using various types of data as the basis, such as satellite imagery, RBI maps, field data, and other relevant data. The price of the map is adjusted according to the level of complexity and analysis required. For web development, Create and develop a website for mapping services. The website is still under development. The technology used is React JS`,
-    technologies: [
-      "ArcGIS Desktop",
-      "ArcGIS Pro",
-      "Google Earth Pro",
-      "ER Mapper",
-      "Sas Planet",
-      "Seadas",
-      "Agisoft MetaShape",
-      "Fastone Photo Reziser",
-      "React JS",
-    ],
-  },
-  {
-    year: "2022 - 2024",
-    role: "Freelance Turnitin Check, Paraphrase, Translation and Web Development |",
-    company: "Abbasy Turnitin",
-    description: `Providing Turnitin Checking, Paraphrasing, and translation. Abbasy Turnitin has served hundreds of customers from various campuses and institutions across Indonesia. Create and develop a website for Turnitin services. The website is still under development. The technology used is React JS`,
-    technologies: [
-      "paraphrasing",
-      "Web Development",
-      "Sales",
-      "Translation",
-      "Turnitin",
-    ],
-  },
-  {
-    year: "2023 - 2024 (Until March)",
-    role: "Coordinator of the Entrepreneurship Division, FMIPA International Class Students Program |",
-    company: "Faculty of Mathematics and Sciences, Universitas Negeri Makassar",
-    description: `Carry out various activities to improve the English language skills of students in the International Class Program, FMIPA, Makassar State University. The activities are directly supervised by the faculty and receive full support from the faculty. Various programs are implemented, such as English Day, mentoring, IELTS Prediction Test, international seminars, and other programs. In addition, there is an entrepreneurship program that provides various services and products, helping students develop skills to become entrepreneurs. For web development, Create and develop a community website using React JS. The website is still under development and is being customized to meet the community's needs`,
-    technologies: [
-      "English Language, Leadership, Entrepreneurship, Team Working, Communication Skills",
-      "Web Development",
-      "React",
-      "CSS Native",
-    ],
-  },
-  {
-    year: "December 2023 - December 2024",
-    role: "Gift Bouquet Designer and Web Developer |",
-    company: "Beauty Bouquet Barru",
-    description: `Provide a variety of bouquet types such as flower bouquets, stuffed animals, snacks, money, and more. In addition, this business is being developed by creating and building the Beauty Bouquet Barru website, allowing customers to more easily view the available stock. The website is still under development, using React and Tailwind technologies.`,
-    technologies: [
-      "Design",
-      "Floris",
-      "Sales",
-      "Web Development",
-      "React",
-      "CSS Native",
-    ],
-  },
-  {
-    year: "January - December 2024",
-    role: "Retail Assistant ad Web Developer |",
-    company: "Berkah Sukses Store",
-    description: `Responsible for managing product availability, store operations, cashier, as well as creating and developing the store's cashier website. The cashier website is built using Laravel technology and includes features such as login authentication for cashiers and admins, as well as menus for the dashboard, users, products, transactions, and reports. This website developed using Laravel 11 and still in development.
-`,
-    technologies: [
-      "Design",
-      "Floris",
-      "Sales",
-      "Web Development",
-      "React",
-      "CSS Native",
-    ],
-  },
-  {
-    year: "April - Mei 2024",
-    role: "Freelance Web Developer |",
-    company: "Jababeka Tbk (By the relation of an intern)",
-    description: `Helping develop the psychological test website together with an intern at Jababeka Tbk. Website development is carried out by inserting questions on sheets of paper into the website display and then providing logic according to the form of multiple choice questions. There is one correct answer and then the user's answer results will be calculated when all questions have been answered. Apart from that, this website also provides CSS to make it more attractive. In this project, I only worked on the CFIT question section.`,
-    technologies: ["PHP Native", "CSS", "MySQL", "Javascript"],
-  },
-  {
-    year: "2024 - (Juni - November)",
-    role: "IT Web Developer Intern |",
-    company: "Invaite.id",
-    description: `Helping slicing website designs into lines of code so that it can become an interactive online invitation website that customers want. The online invitation website is equipped with features for sending messages and impressions as well as confirming attendance which is connected to a database in real time. This website has been hosted and received by customers.`,
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "CI",
-      "Firebase",
-      "MySQL",
-      "Filezilla",
-    ],
-  },
-  {
-    year: "2024 - (Agustus)",
-    role: "Freelance Web Developer |",
-    company: "UPT SPF SMP NEGERI 3 MAKASSAR ",
-    description: `Helping create a bullying complaint website at school. On this website, there is a complaint feature by embedding links in the form of social media and also Google forms. There is also various information regarding bullying complaints. This website has also been hosted so it can be used immediately.`,
-    technologies: ["HTML", "CSS", "JavaScript", "Github"],
-  },
 ];
 
 export const PROJECTS = [
   {
-    title: "General and Thematic Maps (Click here to see the project)",
+    title: "Berkah Sukses Cashier Website (Personal Project)",
+    image: project21,
+    description:
+      "Developed a cashier website with features including authentication, homepage, user management (CRUD for cashiers and admins), product management (CRUD), and transaction processing. Users can perform transactions, which include invoice details, items, total cost, payment, and change. Provided printable sales reports that are automatically recorded.The website is still in the development stage and requires further improvements for its features.",
+    technologies: ["Laravel 11", "Livewire", "Sqlite"],
+    link: "https://github.com/Rinsaf14/Kasir-Berkah-Sukses-Laravel-11",
+  },
+  {
+    title: "Crud Application wih Laravel (Personal Project)",
+    image: project22,
+    description:
+      "Built a CRUD application for student data using Laravel 11 and MySQL.Added authentication features (registration, login) with middleware to restrict access to authenticated users only.",
+    technologies: ["Laravel 11", "MySQL"],
+    link: "https://github.com/Rinsaf14/CRUD-Sederhana-Laravel-11",
+  },
+  {
+    title: "CRUD Application (Personal Project)",
+    image: project23,
+    description:
+      "Created a CRUD application for managing student data (add, edit, delete). Used PHP Native and MySQL for managing student data (ID, first name, last name, age).",
+    technologies: ["PHP Native", "MySQL"],
+    link: "https://github.com/Rinsaf14/crud-php-sederhana",
+  },
+  {
+    title: "Psycotest Website (Freelance Project)",
+    image: project4,
+    description:
+      "Converted question data from paper into code. Developed the user interface using HTML, CSS, and MySQL to display CFIT questions with four categories.",
+    technologies: ["HTML", "CSS", "PHP Native", "MySQL"],
+    link: "/jababeka.html",
+  },
+  {
+    title: "Guestbook Application (Personal Project)",
+    image: project24,
+    description:
+      "Developed a CRUD application for managing guest data. Designed the MySQL database with tables: ID, visit date, name, address, phone, and purpose. Used CodeIgniter 4 for the MVC structure and creating data input forms.",
+    technologies: ["Codeigniter 4", "MySQL"],
+    link: "https://github.com/Rinsaf14/CRUD-Buku-Tamu-Codeigniter-4",
+  },
+  {
+    title: "WebGIS Website (Personal Project)",
+    image: project25,
+    description:
+      "Creating a GIS Website using Codeigniter 4. This GIS Website includes a Dashboard, View Map, Base Map, Marker, Circle, Polyline, Polygon, GeoJSON, Get Coordinates, Geolocation, and Database. The development of this website is part of the learning process for Web GIS.",
+    technologies: ["Codeigniter 4", "Leaflet", "GeoJSON"],
+    link: "https://github.com/Rinsaf14/belajar-webgis-codeigniter",
+  },
+  {
+    title: "WebGIS for Parepare Health Centers (Personal Project)",
+    image: project26,
+    description:
+      "Developed a website to display the distribution of health centers in Parepare using an interactive map with Leaflet. Provided CRUD features for managing health center data, allowing the addition of data and displaying location points on the map.The project is still in the development stage.",
+    technologies: ["Codeigniter 4", "Leaflet", "MySQL"],
+    link: "https://github.com/Rinsaf14/webgis-ci4-sebaran-puskesmas",
+  },
+  {
+    title: "CRUD Website (Personal Project)",
+    image: project27,
+    description:
+      "Created a simple CRUD application using Next.js connected to a MongoDB database.",
+    technologies: ["Next Js", "Tailwind", "MongoDB", "React", "React Icons"],
+    link: "https://github.com/Rinsaf14/crud_nextjs_mongo",
+  },
+  {
+    title: "Blog Website (Personal Project)",
+    image: project28,
+    description:
+      "Developed a blog website with full-stack CRUD features for managing blogs using Next.js. Users can view all published blogs, while the admin can add new blogs, view a list of published blogs, and see subscriptions submitted by users. The website is still in the development stage, and authentication is not yet implemented.",
+    technologies: [
+      "Next Js",
+      "Tailwind",
+      "MongoDB",
+      "React",
+      "React Icons",
+      "Axios",
+      "React Toastify",
+    ],
+    link: "https://github.com/Rinsaf14/nextjs_blog_mongodb",
+  },
+  {
+    title: "FMIPA International Student Community Website (Community Project)",
+    image: project29,
+    description:
+      "Developed a responsive community website with pages such as Home, Programs, About Us, Campus, Testimonials, and Contact Us. The Contact Us feature allows users to send messages that are forwarded to the admin's address. Used React JS, Tailwind CSS, and Web3 Form for form management and responsive design.",
+    technologies: [
+      "React JS",
+      "Tailwind CSS",
+      "React Hooks",
+      "Web3 Form",
+      "Varcel",
+    ],
+    link: "https://real-estate-react-murex.vercel.app/",
+  },
+  {
+    title: "Blog Website (Personal Project)",
+    image: project31,
+    description:
+      "Developed a blog website with full-stack CRUD features for blog management. Provided features such as All Posts, Add New, and Preview to view blogs with statuses like published, draft, and trashed. Users can add new blogs and preview published blogs. The website is still in the development stage.",
+    technologies: [
+      "React JS",
+      "React Hooks",
+      "React Router DOM",
+      "React Redux",
+    ],
+    link: "https://github.com/Rinsaf14/blog-react",
+  },
+  {
+    title: "Fullstack CRUD Application (Personal Project)",
+    image: project32,
+    description:
+      "Developed a fullstack CRUD application to manage user data (id, name, email, gender) with the frontend using React.js and the backend using Node.js and Express.js. Used MySQL as the database to store and manipulate user data. Created a RESTful API for efficient add, edit, and delete operations on data.",
+    technologies: ["Node Js", "Express Js", "React Js", "MySQL"],
+    link: "https://github.com/Rinsaf14/crud_express",
+  },
+  {
+    title: "Store Management (Personal Project)",
+    image: project2,
+    description:
+      "Development with the Laravel PHP Framework and native CSS. Equipped with authentication for admin and user. There is a crud feature for goods in and out of the shop for admins and a feature for purchasing goods for users (users)",
+    technologies: ["HTML", "CSS", "Laravel", "MySQL"],
+    link: "/process.html",
+  },
+  {
+    title: "Netflix Clone (Personal Project)",
+    image: project19,
+    description:
+      "Create a netflic clone website with React. This website uses the TMDB API which displays existing movie data. Apart from that, it also features authentication with Firebase for Sign In and Sign Up",
+    technologies: [
+      "React Js",
+      "Tailwind",
+      "TMDB API",
+      "Firebase Database Authentication",
+    ],
+    link: "/process.html",
+  },
+  {
+    title: "Geo Quiz (Personal Project)",
+    image: project18,
+    description:
+      "Create a Geography quiz website with questions in the form of Json data. This website was created with React and tailwind CSS for appearance. Then deploy with Varcel",
+    technologies: ["Tailwind", "React", "Varcel"],
+    link: "https://react-game-nine-gamma.vercel.app/",
+  },
+  {
+    title: "React Weather (Personal Project)",
+    image: project17,
+    description:
+      "Create Todolist using React with fake API using Axios and Json Server. This project is not hosted because the limitation to find free hostinger that support json server",
+    technologies: ["Tailwind", "React", "Axios", "Json Server"],
+    link: "https://github.com/Rinsaf14/todolist-react.git",
+  },
+  {
+    title: "TodoList React (Personal Project)",
+    image: project16,
+    description:
+      "Create Todolist using React with fake API using Axios and Json Server. This project is not hosted because the limitation to find free hostinger that support json server",
+    technologies: ["Tailwind", "React", "Axios", "Json Server"],
+    link: "https://github.com/Rinsaf14/todolist-react.git",
+  },
+  {
+    title: "Rumah Impian (Personal Project)",
+    image: project1,
+    description:
+      "Development with HTML, CSS, and JavaScript resulting from slicing using Figma. A real estate trading website. However, there is no complex interactivity or database in its development, only on the front-end side.",
+    technologies: ["HTML", "CSS", "JavaScript", "Github"],
+    link: "/peta.html",
+  },
+  {
+    title:
+      "Website for Reports about Bullying in SMP Negeri 3 Makassar (Freelance Project)",
+    image: project3,
+    description:
+      "This website was created with the aim that all acts of bullying that occur can be immediately reported. There is some information regarding bullying complaints on the website which is accompanied by bullying education and the parties to contact to make reports",
+    technologies: ["HTML", "CSS", "JavaScript", "Github"],
+    link: "https://spentig3.github.io/pengaduanspentig/",
+  },
+  {
+    title: "Wedding Invitation Rizky and Putut by Invaite.id (Intern Project)",
+    image: project5,
+    description:
+      "Change the invitation design from designer into a responsive website. This website is equipped with motion, making it look more attractive. Apart from that, it is also equipped with real-time message sending and presence confirmation features so that other users can also see the messages entered.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Codeigniter 3",
+      "Filezilla",
+      "MySQL",
+    ],
+    link: "https://invaite.id/RPWedding/?to=Fira",
+  },
+  {
+    title: "Wedding Invitation Donny and Sri by Invaite.id (Intern Project)",
+    image: project13,
+    description:
+      "Change the invitation design from designer into a responsive website. This website is equipped with motion, making it look more attractive. Apart from that, it is also equipped with real-time message sending and presence confirmation features so that other users can also see the messages entered.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Codeigniter 3",
+      "Filezilla",
+      "MySQL",
+    ],
+    link: "https://invaite.id/DonnywithSri",
+  },
+  {
+    title: "Wedding Invitation Adzka and Andina by Invaite.id (Intern Project)",
+    image: project14,
+    description:
+      "Change the invitation design from designer into a responsive website. This website is equipped with motion, making it look more attractive. Apart from that, it is also equipped with real-time message sending and presence confirmation features so that other users can also see the messages entered.",
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Codeigniter 3",
+      "Filezilla",
+      "MySQL",
+    ],
+    link: "https://invaite.id/AdzkaAndina",
+  },
+  {
+    title: "Website Portfolio (Personal Project)",
+    image: project6,
+    description:
+      "Website portfolio using the React framework containing about myself, especially my skills and experience in website programming",
+    technologies: ["HTML", "Tailwind", "JavaScript", "React"],
+  },
+  {
+    title: "Website Portfolio (Personal Project)",
+    image: project7,
+    description:
+      "Website portfolio containing about myself, especially my skills and experience in website programming. With this portfolio, I can be accapted as an intern in Invaite.id",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    link: "https://rinsaf14.github.io/MyPortoRirinSafitri/",
+  },
+  {
+    title: "CRUD APP (Personal Project)",
+    image: project8,
+    description:
+      "Developing a CRUD system using PHP. The user can create, read, update and delete data.",
+    technologies: ["HTML", "CSS", "PHP", "MySQL"],
+    link: "/process.html",
+  },
+  {
+    title: "HELLO CODERS (Personal Project)",
+    image: project9,
+    description:
+      "Developing a participant/student data website equipped with an authentication system using HTML, CSS, JavaScript and PHP. After the user registers or logs in, the user is directed to a page that displays a list of participants/students using the CRUD system.",
+    technologies: ["HTML", "CSS", "PHP", "MySQL"],
+    link: "/process.html",
+  },
+  {
+    title: "Image Gallery (Personal Project)",
+    image: project10,
+    description:
+      "Website with simple HTML and CSS and use of Java script language for image search system using API. Each search will display several images as desired.",
+    technologies: ["HTML", "CSS", "JavaScript", "API"],
+    link: "https://rinsaf14.github.io/imagegallery/",
+  },
+  {
+    title: "Simple Todo List (Personal Project)",
+    image: project15,
+    description: "Create a todolist to strengthen understanding of Javascript.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    link: "https://rinsaf14.github.io/To-do-list/",
+  },
+  {
+    title:
+      "Processing Water Service data with ArcPy in VSCode into ArcGIS Pro (Personal Project)",
+    image: ArcgisPro1,
+    description:
+      "Performed the process of inputting Water Service data in CSV format using VSCode and ArcPy (Python) into ArcMap, resulting in a pointer containing service request information related to 'Water Service' at the address '5303 Palmetto, Houston, TX 77081,' reported via voice call on August 23, 2017.",
+    technologies: ["Microsoft Excel", "Vs Code", "ArcPy", "ArcGIS Pro"],
+    link: "/process.html",
+  },
+  {
+    title:
+      "Modifying ArcGIS Pro Model Builder Exported Python Scripts (Personal Project)",
+    image: ArcgisPro2,
+    description:
+      "Working with Arcgis Pro to process to datasets that is mc_major_roads and monroe_county_wetlands. In Model Builder, I apply a buffer to the roads and use clip to cut the wetlands dataset based on the buffer zone. After exporting the model to Python code, I modify the script to suit my needs. Finally, I run the modified Python script in the Command Prompt to execute the analysis and generate the desire output.",
+    technologies: ["Vs Code", "ArcPy", "ArcGIS Pro", "Model Builder"],
+    link: "/process.html",
+  },
+  {
+    title:
+      "General and Thematic Maps (Click here to see the project) (Experience Project as a mapper in 4 years)",
     image: projectReact,
     description:
       "Creating and conducting analysis of general and thematic maps using various data sources and mapping software to produce maps in accordance with the objectives. This map was created based on my experience during my studies and working as a freelance map service provider.",
@@ -181,203 +427,19 @@ export const PROJECTS = [
     link: "/peta.html",
   },
   {
-    title: "Web GIS Bojo Baru",
-    image: project20,
-    description:
-      "Creating a GIS Website using Codeigniter 4. This GIS Website includes a Dashboard, View Map, Base Map, Marker, Circle, Polyline, Polygon, GeoJSON, Get Coordinates, Geolocation, and Database. The development of this website is part of the learning process for Web GIS.",
-    technologies: ["Codeigniter 4", "Leaflet", "GeoJSON"],
-    link: "/process.html",
+    title: "Being Developer UI UX (Personal Project)",
+    image: project12,
+    description: "Creation of Wireframes, Mockups and UI UX Design with figma",
+    technologies: ["FIGMA"],
+    link: "https://www.figma.com/design/embajn6ZUa17hmcReTgxjT/Project-2-(Copy)?m=dev&node-id=0-1&t=bLd9YlBMT6yKrxxP-1",
   },
   {
-    title: "Processing Water Service data with ArcPy in VSCode into ArcGIS Pro",
-    image: ArcgisPro1,
-    description:
-      "Performed the process of inputting Water Service data in CSV format using VSCode and ArcPy (Python) into ArcMap, resulting in a pointer containing service request information related to 'Water Service' at the address '5303 Palmetto, Houston, TX 77081,' reported via voice call on August 23, 2017.",
-    technologies: ["Microsoft Excel", "Vs Code", "ArcPy", "ArcGIS Pro"],
-    link: "/process.html",
-  },
-  {
-    title: "Modifying ArcGIS Pro Model Builder Exported Python Scripts",
-    image: ArcgisPro2,
-    description:
-      "Working with Arcgis Pro to process to datasets that is mc_major_roads and monroe_county_wetlands. In Model Builder, I apply a buffer to the roads and use clip to cut the wetlands dataset based on the buffer zone. After exporting the model to Python code, I modify the script to suit my needs. Finally, I run the modified Python script in the Command Prompt to execute the analysis and generate the desire output.",
-    technologies: ["Vs Code", "ArcPy", "ArcGIS Pro", "Model Builder"],
-    link: "/process.html",
-  },
-  {
-    title: "Store Management",
-    image: project2,
-    description:
-      "Development with the Laravel PHP Framework and native CSS. Equipped with authentication for admin and user. There is a crud feature for goods in and out of the shop for admins and a feature for purchasing goods for users (users)",
-    technologies: ["HTML", "CSS", "Laravel", "MySQL"],
-    link: "/process.html",
-  },
-  {
-    title: "Netflix Clone",
-    image: project19,
-    description:
-      "Create a netflic clone website with React. This website uses the TMDB API which displays existing movie data. Apart from that, it also features authentication with Firebase for Sign In and Sign Up",
-    technologies: [
-      "React Js",
-      "Tailwind",
-      "TMDB API",
-      "Firebase Database Authentication",
-    ],
-    link: "/process.html",
-  },
-  {
-    title: "Geo Quiz",
-    image: project18,
-    description:
-      "Create a Geography quiz website with questions in the form of Json data. This website was created with React and tailwind CSS for appearance. Then deploy with Varcel",
-    technologies: ["Tailwind", "React", "Varcel"],
-    link: "https://react-game-nine-gamma.vercel.app/",
-  },
-  {
-    title: "React Weather",
-    image: project17,
-    description:
-      "Create Todolist using React with fake API using Axios and Json Server. This project is not hosted because the limitation to find free hostinger that support json server",
-    technologies: ["Tailwind", "React", "Axios", "Json Server"],
-    link: "https://github.com/Rinsaf14/todolist-react.git",
-  },
-  {
-    title: "TodoList React",
-    image: project16,
-    description:
-      "Create Todolist using React with fake API using Axios and Json Server. This project is not hosted because the limitation to find free hostinger that support json server",
-    technologies: ["Tailwind", "React", "Axios", "Json Server"],
-    link: "https://github.com/Rinsaf14/todolist-react.git",
-  },
-  {
-    title: "Rumah Impian",
-    image: project1,
-    description:
-      "Development with HTML, CSS, and JavaScript resulting from slicing using Figma. A real estate trading website. However, there is no complex interactivity or database in its development, only on the front-end side.",
-    technologies: ["HTML", "CSS", "JavaScript", "Github"],
-    link: "/peta.html",
-  },
-  {
-    title: "Website for Reports about Bullying in SMP Negeri 3 Makassar",
-    image: project3,
-    description:
-      "This website was created with the aim that all acts of bullying that occur can be immediately reported. There is some information regarding bullying complaints on the website which is accompanied by bullying education and the parties to contact to make reports",
-    technologies: ["HTML", "CSS", "JavaScript", "Github"],
-    link: "https://spentig3.github.io/pengaduanspentig/",
-  },
-  {
-    title: "Psikotest Website",
-    image: project4,
-    description:
-      "Website that displays questions for test takers which is equipped with a timer feature. Development with HTML, CSS and PHP. The CFIT questions have 4 question divisions where there is a feature to move questions accompanied by calculations of the user's answer results.",
-    technologies: ["HTML", "CSS", "PHP", "MySQL"],
-    link: "/jababeka.html",
-  },
-  {
-    title: "Wedding Invitation Rizky and Putut by Invaite.id",
-    image: project5,
-    description:
-      "Change the invitation design from designer into a responsive website. This website is equipped with motion, making it look more attractive. Apart from that, it is also equipped with real-time message sending and presence confirmation features so that other users can also see the messages entered.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Codeigniter 3",
-      "Filezilla",
-      "MySQL",
-    ],
-    link: "https://invaite.id/RPWedding/?to=Fira",
-  },
-  {
-    title: "Wedding Invitation Donny and Sri by Invaite.id",
-    image: project13,
-    description:
-      "Change the invitation design from designer into a responsive website. This website is equipped with motion, making it look more attractive. Apart from that, it is also equipped with real-time message sending and presence confirmation features so that other users can also see the messages entered.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Codeigniter 3",
-      "Filezilla",
-      "MySQL",
-    ],
-    link: "https://invaite.id/DonnywithSri",
-  },
-  {
-    title: "Wedding Invitation Adzka and Andina by Invaite.id",
-    image: project14,
-    description:
-      "Change the invitation design from designer into a responsive website. This website is equipped with motion, making it look more attractive. Apart from that, it is also equipped with real-time message sending and presence confirmation features so that other users can also see the messages entered.",
-    technologies: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Codeigniter 3",
-      "Filezilla",
-      "MySQL",
-    ],
-    link: "https://invaite.id/AdzkaAndina",
-  },
-  {
-    title: "Website Portfolio",
-    image: project6,
-    description:
-      "Website portfolio using the React framework containing about myself, especially my skills and experience in website programming",
-    technologies: ["HTML", "Tailwind", "JavaScript", "React"],
-  },
-  {
-    title: "Website Portfolio",
-    image: project7,
-    description:
-      "Website portfolio containing about myself, especially my skills and experience in website programming. With this portfolio, I can be accapted as an intern in Invaite.id",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    link: "https://rinsaf14.github.io/MyPortoRirinSafitri/",
-  },
-  {
-    title: "CRUD APP",
-    image: project8,
-    description:
-      "Developing a CRUD system using PHP. The user can create, read, update and delete data.",
-    technologies: ["HTML", "CSS", "PHP", "MySQL"],
-    link: "/process.html",
-  },
-  {
-    title: "HELLO CODERS",
-    image: project9,
-    description:
-      "Developing a participant/student data website equipped with an authentication system using HTML, CSS, JavaScript and PHP. After the user registers or logs in, the user is directed to a page that displays a list of participants/students using the CRUD system.",
-    technologies: ["HTML", "CSS", "PHP", "MySQL"],
-    link: "/process.html",
-  },
-  {
-    title: "Image Gallery",
-    image: project10,
-    description:
-      "Website with simple HTML and CSS and use of Java script language for image search system using API. Each search will display several images as desired.",
-    technologies: ["HTML", "CSS", "JavaScript", "API"],
-    link: "https://rinsaf14.github.io/imagegallery/",
-  },
-  {
-    title: "Simple Todo List",
-    image: project15,
-    description: "Create a todolist to strengthen understanding of Javascript.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    link: "https://rinsaf14.github.io/To-do-list/",
-  },
-  {
-    title: "Rumah Impian UI UX",
+    title: "Rumah Impian UI UX (Personal Project)",
     image: project11,
     description:
       "Create a website design using Figma which will serve as a guide in programming the website.",
     technologies: ["FIGMA"],
     link: "https://www.figma.com/design/i4T260lrh3X6ZVOXfcKwfe/Rumah-Impian?m=dev&node-id=0-1&t=PGPz5I0LgjcxInRQ-1",
-  },
-  {
-    title: "Being Developer UI UX",
-    image: project12,
-    description: "Creation of Wireframes, Mockups and UI UX Design with figma",
-    technologies: ["FIGMA"],
-    link: "https://www.figma.com/design/embajn6ZUa17hmcReTgxjT/Project-2-(Copy)?m=dev&node-id=0-1&t=bLd9YlBMT6yKrxxP-1",
   },
 ];
 
