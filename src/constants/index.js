@@ -53,6 +53,34 @@ export const HERO_CONTENT = `Junior Website and WebGIS Developer with internship
 export const ABOUT_TEXT = `My interest in technology started during college, where I learned mapping and became a GIS teaching assistant. GIS and programming are fields that I find particularly interesting, and I am someone who learns quickly. I was involved in various projects, such as assisting with GIS teaching and creating a map for MAN 1 Makassar, as well as working as a mapping freelancer. Towards the end of my studies, I expanded my skills by learning web development and now have experience in freelance projects and an internship as an IT Web Developer. In the future, I aspire to become a WebGIS Specialist.`;
 
 export const EXPERIENCES = [
+    {
+    year: "Mei - Now 2025",
+    role: "Virtual Assistant, Analyst, Graphic Designer, Admin |",
+    company: "PT Fahrul Moneta Paressa",
+    description: `Involved in the development of various IT Projects (Web Development) by acting as a liaison between clients and developers, performing documentation tasks, adjusting the meeting, analyzing project feasibility, design system workflows, and supervising website development through testing.Designed Instagram posts and managed content for Hello Coders. Assisted the Director in completing writing projects related to web development, data analyst, and other. Designed post, managed content, and served as Instagram admin for Freelance with Fahrul, as well as an administrator for the website fwf.co.id
+`,
+    technologies: [
+      "Web Development",
+      "Management Tools",
+      "Microsoft Office",
+      "Design Tools",
+    ],
+  },
+    {
+    year: "March - June 2025",
+    role: "Software Engineer Intern |",
+    company: "Digital Hero",
+    description: `Developed the front office in a Fullstack capacity based on designs provided by the UI/UX team, performed UI slicing for the admin panel according to design standards and ensured its proper implementation into the system, handled and fixed various bugs reported by the QA team to improve product quality.`,
+    technologies: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Laravel",
+      "MySQL",
+      "Git",
+      "Tailwind"
+    ],
+  },
   {
     year: "June - November 2024",
     role: "IT Web Developer Intern |",
@@ -121,6 +149,41 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+    {
+    title:
+      "General and Thematic Maps (Click here to see the project) (Experience Project as a mapper in 4 years)",
+    image: projectReact,
+    description:
+      "Creating and conducting analysis of general and thematic maps using various data sources and mapping software to produce maps in accordance with the objectives. This map was created based on my experience during my studies and working as a freelance map service provider.",
+    technologies: [
+      "ArcGIS Desktop",
+      "ArcGIS Pro",
+      "Google Earth Pro",
+      "ER Mapper",
+      "Sas Planet",
+      "Seadas",
+      "Landsat",
+      "Agisoft MetaShape",
+      "Fastone Photo Reziser",
+    ],
+    link: "/peta.html",
+  },
+  {
+    title: "WebGIS Website (Personal Project)",
+    image: project25,
+    description:
+      "Creating a GIS Website using Codeigniter 4. This GIS Website includes a Dashboard, View Map, Base Map, Marker, Circle, Polyline, Polygon, GeoJSON, Get Coordinates, Geolocation, and Database. The development of this website is part of the learning process for Web GIS.",
+    technologies: ["Codeigniter 4", "Leaflet", "GeoJSON"],
+    link: "https://github.com/Rinsaf14/belajar-webgis-codeigniter",
+  },
+  {
+    title: "WebGIS for Parepare Health Centers (Personal Project)",
+    image: project26,
+    description:
+      "Developed a website to display the distribution of health centers in Parepare using an interactive map with Leaflet. Provided CRUD features for managing health center data, allowing the addition of data and displaying location points on the map.The project is still in the development stage.",
+    technologies: ["Codeigniter 4", "Leaflet", "MySQL"],
+    link: "https://github.com/Rinsaf14/webgis-ci4-sebaran-puskesmas",
+  },
   {
     title: "Berkah Sukses Cashier Website (Personal Project)",
     image: project21,
@@ -160,22 +223,6 @@ export const PROJECTS = [
       "Developed a CRUD application for managing guest data. Designed the MySQL database with tables: ID, visit date, name, address, phone, and purpose. Used CodeIgniter 4 for the MVC structure and creating data input forms.",
     technologies: ["Codeigniter 4", "MySQL"],
     link: "https://github.com/Rinsaf14/CRUD-Buku-Tamu-Codeigniter-4",
-  },
-  {
-    title: "WebGIS Website (Personal Project)",
-    image: project25,
-    description:
-      "Creating a GIS Website using Codeigniter 4. This GIS Website includes a Dashboard, View Map, Base Map, Marker, Circle, Polyline, Polygon, GeoJSON, Get Coordinates, Geolocation, and Database. The development of this website is part of the learning process for Web GIS.",
-    technologies: ["Codeigniter 4", "Leaflet", "GeoJSON"],
-    link: "https://github.com/Rinsaf14/belajar-webgis-codeigniter",
-  },
-  {
-    title: "WebGIS for Parepare Health Centers (Personal Project)",
-    image: project26,
-    description:
-      "Developed a website to display the distribution of health centers in Parepare using an interactive map with Leaflet. Provided CRUD features for managing health center data, allowing the addition of data and displaying location points on the map.The project is still in the development stage.",
-    technologies: ["Codeigniter 4", "Leaflet", "MySQL"],
-    link: "https://github.com/Rinsaf14/webgis-ci4-sebaran-puskesmas",
   },
   {
     title: "CRUD Website (Personal Project)",
@@ -406,25 +453,6 @@ export const PROJECTS = [
       "Working with Arcgis Pro to process to datasets that is mc_major_roads and monroe_county_wetlands. In Model Builder, I apply a buffer to the roads and use clip to cut the wetlands dataset based on the buffer zone. After exporting the model to Python code, I modify the script to suit my needs. Finally, I run the modified Python script in the Command Prompt to execute the analysis and generate the desire output.",
     technologies: ["Vs Code", "ArcPy", "ArcGIS Pro", "Model Builder"],
     link: "/process.html",
-  },
-  {
-    title:
-      "General and Thematic Maps (Click here to see the project) (Experience Project as a mapper in 4 years)",
-    image: projectReact,
-    description:
-      "Creating and conducting analysis of general and thematic maps using various data sources and mapping software to produce maps in accordance with the objectives. This map was created based on my experience during my studies and working as a freelance map service provider.",
-    technologies: [
-      "ArcGIS Desktop",
-      "ArcGIS Pro",
-      "Google Earth Pro",
-      "ER Mapper",
-      "Sas Planet",
-      "Seadas",
-      "Landsat",
-      "Agisoft MetaShape",
-      "Fastone Photo Reziser",
-    ],
-    link: "/peta.html",
   },
   {
     title: "Being Developer UI UX (Personal Project)",
